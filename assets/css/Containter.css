@@ -1,0 +1,15 @@
+.container {
+  text-align: center;
+  display: block;
+  margin: auto;
+  color: #292931;
+}
+
+.privacy {
+  text-align: justify;
+}
+
+.container a:visited {
+  color: #00b2aa;
+}
+

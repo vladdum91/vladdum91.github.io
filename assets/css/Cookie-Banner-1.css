@@ -1,0 +1,42 @@
+.cookiealert {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0 !important;
+  z-index: 9999;
+  opacity: 0;
+  border-radius: 0;
+  background: rgb(70,87,101);
+  transform: translateY(100%);
+  transition: all 500ms ease-out;
+  color: #ffffff;
+}
+
+.cookiealert.show {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: 1000ms;
+}
+
+.cookiealert a {
+  text-decoration: underline;
+}
+
+.cookiealert .acceptcookies {
+  margin-left: 10px;
+  vertical-align: baseline;
+}
+
+.btn.btn-info.btn-sm.acceptcookies {
+  background-color: #00b2aa;
+}
+
+p a:link {
+  color: #00b2aa;
+}
+
+p a:hover {
+  color: #56c9c1;
+}
+
